@@ -1,0 +1,19 @@
+@keyframes animation{
+    from{
+            transform: translateY(0px) rotate(0deg);
+    }
+    to{
+            transform: translateY(300px) rotate(360deg);
+    }
+}
+
+.main{
+    height: 50px;
+    width: 50px;
+    animation-name: animation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}

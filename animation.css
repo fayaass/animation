@@ -1,0 +1,21 @@
+@keyframes animation{
+    from{
+            background-color: orange;
+            transform: translate(0px);
+    }
+    to{
+            background-color: red;
+            transform: translate(300px);
+    }
+}
+
+.main{
+    height: 300px;
+    width: 300px;
+    animation-name: animation;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
